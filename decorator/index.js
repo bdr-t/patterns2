@@ -15,7 +15,7 @@ let items = [
 function calculatePrice(decorator, currency, price, item){
     this.convert = decorator()
     let toEur = this.convert(currency, price)
-    console.log(`El preu de ${item} convertit a EUR desde ${currency} es de ${Math.round(toEur * 100) / 100} el cost anual seria de ${Math.round(toEur * 12 * 100) / 100}`)
+    console.log(`El preu de ${item} convertit a EUR des de ${currency} es de ${Math.round(toEur * 100) / 100} el cost anual seria de ${Math.round(toEur * 12 * 100) / 100}`)
     
     
 }
